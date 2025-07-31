@@ -1,7 +1,7 @@
 {
     "name": "universal-symbols",
     "type": "module",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A comprehensive collection of categorized symbols for expressive and formal programming",
     "main": "index.js",
     "types": "index.d.ts",
