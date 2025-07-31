@@ -1,9 +1,10 @@
 {
     "name": "universal-symbols",
     "type": "module",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "description": "A comprehensive collection of categorized symbols for expressive and formal programming",
     "main": "index.js",
+    "types": "index.d.ts",
     "scripts": {
         "build": "node generate.js",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +20,8 @@
         "programming"
     ],
     "author": "Universal Symbols",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.8.3"
+    }
 }

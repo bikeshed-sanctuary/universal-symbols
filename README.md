@@ -27,6 +27,44 @@ const my_object = {
 };
 ```
 
+## TypeScript Support
+
+This package includes full TypeScript support with automatically generated type declarations. All symbols are properly typed as `unique symbol` types, ensuring type safety when using them as object keys or method names.
+
+```typescript
+import { 
+  INTERNAL, 
+  PRIVATE, 
+  PROTECTED,
+  STATE,
+  CACHE,
+  EVENTS,
+  ACCESS_VIBES,
+  VIBES,
+  ALL_SYMBOLS 
+} from 'universal-symbols';
+
+// Using symbols in interfaces
+interface ConfigurableObject {
+  [INTERNAL]: any;
+  [PRIVATE]: any;
+  [PROTECTED]: any;
+  [STATE]: any;
+  [CACHE]: any;
+}
+
+// Using convenience collections
+const accessLevels = ACCESS_VIBES;
+const allVibes = VIBES;
+const allSymbols = ALL_SYMBOLS;
+
+// TypeScript will provide full IntelliSense and type checking
+console.log(accessLevels.INTERNAL); // ✅ Type-safe
+console.log(allVibes.STATE); // ✅ Type-safe
+```
+
+The TypeScript declarations are automatically generated from the `symbols.json` data file, ensuring they stay in sync with the JavaScript implementation.
+
 For a comprehensive list of symbols, you can read [the code file](./index.js)
 or [the data file](./symbols.json).
 
