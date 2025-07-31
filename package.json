@@ -1,0 +1,18 @@
+{
+    "name": "universal-symbols",
+    "type": "module",
+    "version": "o.0.0",
+    "description": "A library containing a collection of symbols",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "symbols",
+        "universal",
+        "collection",
+        "library"
+    ],
+    "author": "Universal Symbols",
+    "license": "MIT"
+}
