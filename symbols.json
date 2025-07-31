@@ -1,0 +1,680 @@
+{
+  "version": "0.1.0",
+  "description": "Universal Utility Symbols - Categorized collection of symbols for different use cases",
+  "categories": {
+    "vibes": {
+      "description": "Abstract, emotional, and vibe-based symbols for expressive programming",
+      "symbols": {
+        "INTERNAL": {
+          "description": "Core internal access - the essence of private",
+          "category": "access"
+        },
+        "PRIVATE": {
+          "description": "Private access - keep it to yourself",
+          "category": "access"
+        },
+        "PROTECTED": {
+          "description": "Protected access - family only",
+          "category": "access"
+        },
+        "HIDDEN": {
+          "description": "Hidden from view - secret sauce",
+          "category": "access"
+        },
+        "SECRET": {
+          "description": "Deep secrets - the real magic",
+          "category": "access"
+        },
+        "INIT": {
+          "description": "The beginning - fresh start vibes",
+          "category": "lifecycle"
+        },
+        "SETUP": {
+          "description": "Getting ready - preparation mode",
+          "category": "lifecycle"
+        },
+        "TEARDOWN": {
+          "description": "Cleanup time - tidy vibes",
+          "category": "lifecycle"
+        },
+        "DESTROY": {
+          "description": "The end - destruction mode",
+          "category": "lifecycle"
+        },
+        "DISPOSE": {
+          "description": "Let it go - disposal vibes",
+          "category": "lifecycle"
+        },
+        "CLEANUP": {
+          "description": "Fresh and clean - cleanup energy",
+          "category": "lifecycle"
+        },
+        "FINALIZE": {
+          "description": "Last touches - final vibes",
+          "category": "lifecycle"
+        },
+        "STATE": {
+          "description": "Current vibes - what's happening now",
+          "category": "state"
+        },
+        "PREV_STATE": {
+          "description": "Past vibes - what was before",
+          "category": "state"
+        },
+        "NEXT_STATE": {
+          "description": "Future vibes - what's coming next",
+          "category": "state"
+        },
+        "INITIAL_STATE": {
+          "description": "Original vibes - where it all began",
+          "category": "state"
+        },
+        "DIRTY": {
+          "description": "Messy vibes - needs attention",
+          "category": "state"
+        },
+        "PRISTINE": {
+          "description": "Perfect vibes - untouched beauty",
+          "category": "state"
+        },
+        "CHANGED": {
+          "description": "Different vibes - something shifted",
+          "category": "state"
+        },
+        "VALIDATE": {
+          "description": "Check vibes - make sure it's good",
+          "category": "validation"
+        },
+        "VALIDATOR": {
+          "description": "Validation vibes - the checker",
+          "category": "validation"
+        },
+        "CONSTRAINTS": {
+          "description": "Boundary vibes - stay within limits",
+          "category": "validation"
+        },
+        "SCHEMA": {
+          "description": "Structure vibes - the blueprint",
+          "category": "validation"
+        },
+        "RULES": {
+          "description": "Rule vibes - follow the guidelines",
+          "category": "validation"
+        },
+        "ERRORS": {
+          "description": "Oops vibes - something went wrong",
+          "category": "validation"
+        },
+        "WARNINGS": {
+          "description": "Heads up vibes - pay attention",
+          "category": "validation"
+        },
+        "SERIALIZE": {
+          "description": "Pack vibes - bundle it up",
+          "category": "serialization"
+        },
+        "DESERIALIZE": {
+          "description": "Unpack vibes - let it out",
+          "category": "serialization"
+        },
+        "TO_JSON": {
+          "description": "JSON vibes - string it out",
+          "category": "serialization"
+        },
+        "FROM_JSON": {
+          "description": "Parse vibes - read it in",
+          "category": "serialization"
+        },
+        "TRANSFORM": {
+          "description": "Change vibes - make it different",
+          "category": "transformation"
+        },
+        "CONVERT": {
+          "description": "Switch vibes - turn it into something else",
+          "category": "transformation"
+        },
+        "MAP": {
+          "description": "Transform vibes - one to many",
+          "category": "transformation"
+        },
+        "REDUCE": {
+          "description": "Combine vibes - many to one",
+          "category": "transformation"
+        },
+        "FILTER": {
+          "description": "Select vibes - pick the good ones",
+          "category": "transformation"
+        },
+        "CLONE": {
+          "description": "Copy vibes - make a duplicate",
+          "category": "transformation"
+        },
+        "DEEP_CLONE": {
+          "description": "Deep copy vibes - complete duplicate",
+          "category": "transformation"
+        },
+        "METADATA": {
+          "description": "Info vibes - the details",
+          "category": "metadata"
+        },
+        "META": {
+          "description": "Meta vibes - data about data",
+          "category": "metadata"
+        },
+        "INFO": {
+          "description": "Information vibes - what you need to know",
+          "category": "metadata"
+        },
+        "DESCRIPTION": {
+          "description": "Story vibes - tell me about it",
+          "category": "metadata"
+        },
+        "VERSION": {
+          "description": "Version vibes - what iteration",
+          "category": "metadata"
+        },
+        "NAME": {
+          "description": "Identity vibes - what to call it",
+          "category": "metadata"
+        },
+        "ID": {
+          "description": "Unique vibes - one of a kind",
+          "category": "metadata"
+        },
+        "UUID": {
+          "description": "Global vibes - universally unique",
+          "category": "metadata"
+        },
+        "CONFIG": {
+          "description": "Settings vibes - how to configure",
+          "category": "configuration"
+        },
+        "OPTIONS": {
+          "description": "Choice vibes - pick your flavor",
+          "category": "configuration"
+        },
+        "SETTINGS": {
+          "description": "Preference vibes - how you like it",
+          "category": "configuration"
+        },
+        "PREFERENCES": {
+          "description": "Personal vibes - your style",
+          "category": "configuration"
+        },
+        "DEFAULTS": {
+          "description": "Standard vibes - the usual",
+          "category": "configuration"
+        },
+        "OVERRIDES": {
+          "description": "Custom vibes - override the default",
+          "category": "configuration"
+        },
+        "CACHE": {
+          "description": "Store vibes - keep it handy",
+          "category": "caching"
+        },
+        "CACHED": {
+          "description": "Stored vibes - already saved",
+          "category": "caching"
+        },
+        "CACHE_KEY": {
+          "description": "Key vibes - how to find it",
+          "category": "caching"
+        },
+        "CACHE_HIT": {
+          "description": "Found vibes - got it from cache",
+          "category": "caching"
+        },
+        "CACHE_MISS": {
+          "description": "Missing vibes - not in cache",
+          "category": "caching"
+        },
+        "MEMOIZE": {
+          "description": "Remember vibes - don't recalculate",
+          "category": "caching"
+        },
+        "MEMOIZED": {
+          "description": "Remembered vibes - already computed",
+          "category": "caching"
+        },
+        "DEBUG": {
+          "description": "Debug vibes - figure it out",
+          "category": "debugging"
+        },
+        "TRACE": {
+          "description": "Track vibes - follow the path",
+          "category": "debugging"
+        },
+        "LOG": {
+          "description": "Log vibes - write it down",
+          "category": "debugging"
+        },
+        "LOGGER": {
+          "description": "Logger vibes - the writer",
+          "category": "debugging"
+        },
+        "VERBOSE": {
+          "description": "Talkative vibes - lots of details",
+          "category": "debugging"
+        },
+        "STACK_TRACE": {
+          "description": "Stack vibes - the call history",
+          "category": "debugging"
+        },
+        "ERROR": {
+          "description": "Error vibes - something's wrong",
+          "category": "debugging"
+        },
+        "ERROR_HANDLER": {
+          "description": "Handler vibes - deal with errors",
+          "category": "debugging"
+        },
+        "EXCEPTION": {
+          "description": "Exception vibes - unexpected behavior",
+          "category": "debugging"
+        },
+        "FAULT": {
+          "description": "Fault vibes - the problem",
+          "category": "debugging"
+        },
+        "EVENTS": {
+          "description": "Event vibes - things happening",
+          "category": "events"
+        },
+        "LISTENERS": {
+          "description": "Listener vibes - paying attention",
+          "category": "events"
+        },
+        "EMIT": {
+          "description": "Emit vibes - send it out",
+          "category": "events"
+        },
+        "ON": {
+          "description": "Listen vibes - hear the event",
+          "category": "events"
+        },
+        "OFF": {
+          "description": "Stop vibes - no longer listening",
+          "category": "events"
+        },
+        "ONCE": {
+          "description": "Once vibes - listen just once",
+          "category": "events"
+        },
+        "OBSERVERS": {
+          "description": "Observer vibes - watching closely",
+          "category": "events"
+        },
+        "SUBSCRIBE": {
+          "description": "Subscribe vibes - join the party",
+          "category": "events"
+        },
+        "UNSUBSCRIBE": {
+          "description": "Unsubscribe vibes - leave the party",
+          "category": "events"
+        },
+        "NOTIFY": {
+          "description": "Notify vibes - tell everyone",
+          "category": "events"
+        },
+        "OBSERVABLE": {
+          "description": "Observable vibes - can be watched",
+          "category": "events"
+        },
+        "PROMISE": {
+          "description": "Promise vibes - future value",
+          "category": "async"
+        },
+        "RESOLVE": {
+          "description": "Resolve vibes - fulfill the promise",
+          "category": "async"
+        },
+        "REJECT": {
+          "description": "Reject vibes - break the promise",
+          "category": "async"
+        },
+        "PENDING": {
+          "description": "Waiting vibes - not done yet",
+          "category": "async"
+        },
+        "FULFILLED": {
+          "description": "Done vibes - promise kept",
+          "category": "async"
+        },
+        "REJECTED": {
+          "description": "Failed vibes - promise broken",
+          "category": "async"
+        },
+        "LOCK": {
+          "description": "Lock vibes - exclusive access",
+          "category": "async"
+        },
+        "UNLOCK": {
+          "description": "Unlock vibes - release access",
+          "category": "async"
+        },
+        "SEMAPHORE": {
+          "description": "Semaphore vibes - controlled access",
+          "category": "async"
+        },
+        "MUTEX": {
+          "description": "Mutex vibes - mutual exclusion",
+          "category": "async"
+        },
+        "ATOMIC": {
+          "description": "Atomic vibes - indivisible operation",
+          "category": "async"
+        },
+        "ITEMS": {
+          "description": "Item vibes - the collection contents",
+          "category": "collections"
+        },
+        "SIZE": {
+          "description": "Size vibes - how big is it",
+          "category": "collections"
+        },
+        "LENGTH": {
+          "description": "Length vibes - how long is it",
+          "category": "collections"
+        },
+        "COUNT": {
+          "description": "Count vibes - how many",
+          "category": "collections"
+        },
+        "CAPACITY": {
+          "description": "Capacity vibes - how much it can hold",
+          "category": "collections"
+        },
+        "ITERATE": {
+          "description": "Iterate vibes - go through each",
+          "category": "collections"
+        },
+        "NEXT": {
+          "description": "Next vibes - what comes after",
+          "category": "collections"
+        },
+        "DONE": {
+          "description": "Done vibes - finished iterating",
+          "category": "collections"
+        },
+        "VALUE": {
+          "description": "Value vibes - the actual data",
+          "category": "collections"
+        },
+        "PROXY_HANDLER": {
+          "description": "Proxy vibes - intercept and modify",
+          "category": "proxy"
+        },
+        "INTERCEPT": {
+          "description": "Intercept vibes - catch it on the way",
+          "category": "proxy"
+        },
+        "TRAP": {
+          "description": "Trap vibes - catch the operation",
+          "category": "proxy"
+        },
+        "TARGET": {
+          "description": "Target vibes - the original object",
+          "category": "proxy"
+        },
+        "ORIGINAL": {
+          "description": "Original vibes - the real deal",
+          "category": "proxy"
+        },
+        "GET": {
+          "description": "Get vibes - retrieve the value",
+          "category": "proxy"
+        },
+        "SET": {
+          "description": "Set vibes - assign the value",
+          "category": "proxy"
+        },
+        "HAS": {
+          "description": "Has vibes - check if it exists",
+          "category": "proxy"
+        },
+        "DELETE": {
+          "description": "Delete vibes - remove it",
+          "category": "proxy"
+        },
+        "DEFINE_PROPERTY": {
+          "description": "Define vibes - create the property",
+          "category": "proxy"
+        },
+        "PERMISSIONS": {
+          "description": "Permission vibes - what you can do",
+          "category": "security"
+        },
+        "ACCESS": {
+          "description": "Access vibes - can you reach it",
+          "category": "security"
+        },
+        "AUTHORIZED": {
+          "description": "Authorized vibes - you have permission",
+          "category": "security"
+        },
+        "FORBIDDEN": {
+          "description": "Forbidden vibes - you can't do that",
+          "category": "security"
+        },
+        "ROLE": {
+          "description": "Role vibes - what part you play",
+          "category": "security"
+        },
+        "CAPABILITY": {
+          "description": "Capability vibes - what you can do",
+          "category": "security"
+        },
+        "SECURE": {
+          "description": "Secure vibes - protected and safe",
+          "category": "security"
+        },
+        "ENCRYPTED": {
+          "description": "Encrypted vibes - scrambled data",
+          "category": "security"
+        },
+        "HASH": {
+          "description": "Hash vibes - one-way transformation",
+          "category": "security"
+        },
+        "SIGNATURE": {
+          "description": "Signature vibes - proof of authenticity",
+          "category": "security"
+        },
+        "TOKEN": {
+          "description": "Token vibes - access credential",
+          "category": "security"
+        },
+        "TEST": {
+          "description": "Test vibes - verify it works",
+          "category": "testing"
+        },
+        "MOCK": {
+          "description": "Mock vibes - fake it till you make it",
+          "category": "testing"
+        },
+        "STUB": {
+          "description": "Stub vibes - simple replacement",
+          "category": "testing"
+        },
+        "SPY": {
+          "description": "Spy vibes - watch what happens",
+          "category": "testing"
+        },
+        "FAKE": {
+          "description": "Fake vibes - not the real thing",
+          "category": "testing"
+        },
+        "FIXTURE": {
+          "description": "Fixture vibes - test data setup",
+          "category": "testing"
+        },
+        "TEST_CONTEXT": {
+          "description": "Context vibes - test environment",
+          "category": "testing"
+        },
+        "BEFORE": {
+          "description": "Before vibes - setup phase",
+          "category": "testing"
+        },
+        "AFTER": {
+          "description": "After vibes - cleanup phase",
+          "category": "testing"
+        },
+        "SETUP_TEST": {
+          "description": "Setup vibes - prepare for test",
+          "category": "testing"
+        },
+        "TEARDOWN_TEST": {
+          "description": "Teardown vibes - clean after test",
+          "category": "testing"
+        },
+        "BENCHMARK": {
+          "description": "Benchmark vibes - measure performance",
+          "category": "performance"
+        },
+        "PROFILE": {
+          "description": "Profile vibes - detailed analysis",
+          "category": "performance"
+        },
+        "TIMING": {
+          "description": "Timing vibes - measure time",
+          "category": "performance"
+        },
+        "PERFORMANCE": {
+          "description": "Performance vibes - how fast is it",
+          "category": "performance"
+        },
+        "OPTIMIZE": {
+          "description": "Optimize vibes - make it better",
+          "category": "performance"
+        },
+        "POOL": {
+          "description": "Pool vibes - resource collection",
+          "category": "performance"
+        },
+        "ALLOCATE": {
+          "description": "Allocate vibes - reserve resources",
+          "category": "performance"
+        },
+        "DEALLOCATE": {
+          "description": "Deallocate vibes - free resources",
+          "category": "performance"
+        },
+        "REUSE": {
+          "description": "Reuse vibes - use again",
+          "category": "performance"
+        },
+        "HOOK": {
+          "description": "Hook vibes - attach behavior",
+          "category": "framework"
+        },
+        "PLUGIN": {
+          "description": "Plugin vibes - add functionality",
+          "category": "framework"
+        },
+        "MIDDLEWARE": {
+          "description": "Middleware vibes - process in between",
+          "category": "framework"
+        },
+        "DECORATOR": {
+          "description": "Decorator vibes - enhance behavior",
+          "category": "framework"
+        },
+        "EXTENSION": {
+          "description": "Extension vibes - add capabilities",
+          "category": "framework"
+        },
+        "INJECT": {
+          "description": "Inject vibes - provide dependencies",
+          "category": "framework"
+        },
+        "DEPENDENCY": {
+          "description": "Dependency vibes - what you need",
+          "category": "framework"
+        },
+        "FACTORY": {
+          "description": "Factory vibes - create instances",
+          "category": "framework"
+        },
+        "SINGLETON": {
+          "description": "Singleton vibes - one and only",
+          "category": "framework"
+        },
+        "PROVIDER": {
+          "description": "Provider vibes - supply what's needed",
+          "category": "framework"
+        },
+        "FLAG": {
+          "description": "Flag vibes - mark something",
+          "category": "utility"
+        },
+        "MARKER": {
+          "description": "Marker vibes - indicate position",
+          "category": "utility"
+        },
+        "TAG": {
+          "description": "Tag vibes - label it",
+          "category": "utility"
+        },
+        "LABEL": {
+          "description": "Label vibes - name it",
+          "category": "utility"
+        },
+        "BRAND": {
+          "description": "Brand vibes - identify it",
+          "category": "utility"
+        },
+        "EMPTY": {
+          "description": "Empty vibes - nothing here",
+          "category": "utility"
+        },
+        "NULL": {
+          "description": "Null vibes - intentionally nothing",
+          "category": "utility"
+        },
+        "UNDEFINED": {
+          "description": "Undefined vibes - not set",
+          "category": "utility"
+        },
+        "PLACEHOLDER": {
+          "description": "Placeholder vibes - temporary value",
+          "category": "utility"
+        },
+        "SENTINEL": {
+          "description": "Sentinel vibes - special marker",
+          "category": "utility"
+        },
+        "REF": {
+          "description": "Ref vibes - reference to something",
+          "category": "utility"
+        },
+        "WEAK_REF": {
+          "description": "Weak ref vibes - non-strong reference",
+          "category": "utility"
+        },
+        "REFERENCE": {
+          "description": "Reference vibes - point to something",
+          "category": "utility"
+        },
+        "POINTER": {
+          "description": "Pointer vibes - direct reference",
+          "category": "utility"
+        },
+        "LINK": {
+          "description": "Link vibes - connection to something",
+          "category": "utility"
+        }
+      }
+    },
+    "formal": {
+      "description": "Well-defined symbols with specific, formal use cases",
+      "symbols": {
+        "OBJECT_EXTEND_FUNCTION_ENTRIES": {
+          "description": "When a function is used to add more properties to an object, this member of that function is used to mark the entries that will be added to the object.",
+          "category": "api"
+        }
+      }
+    }
+  }
+} 
