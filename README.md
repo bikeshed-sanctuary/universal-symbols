@@ -8,6 +8,8 @@ versions and future versions of this package won't cause issues.
 If you want to be extra cautious, fork this repository and change the
 UUID prefix, then use the fork in your packages.
 
+Here's how you use it:
+
 ```bash
 npm install universal-symbols
 ```
