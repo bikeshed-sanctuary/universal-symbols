@@ -1,7 +1,7 @@
 {
     "name": "universal-symbols",
     "type": "module",
-    "version": "o.0.0",
+    "version": "0.0.0",
     "description": "A library containing a collection of symbols",
     "main": "index.js",
     "scripts": {
